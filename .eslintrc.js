@@ -1,4 +1,82 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  parser: '@typescript-eslint/parser',
+  plugins: ['@typescript-eslint'],
+  ignorePatterns: [
+    'plugins/**/*',
+    'metro.config.js',
+    'coverage/',
+    'index.d.ts',
+  ],
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 'latest',
+    sourceType: 'module',
+    tsconfigRootDir: '.',
+    project: ['./tsconfig.json'],
+  },
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx'],
+      },
+      typescript: {},
+    },
+    react: {
+      version: '18.x',
+    },
+  },
+  extends: [
+    '@react-native',
+    'prettier/@typescript-eslint',
+    '@react-native-community',
+    'plugin:@typescript-eslint/recommended',
+  ],
+  rules: {
+    '@typescript-eslint/no-unused-vars': ['warn', {argsIgnorePattern: '^_'}],
+    '@typescript-eslint/no-explicit-any': ['warn', {ignoreRestArgs: true}],
+    '@typescript-eslint/no-unsafe-assignment': ['warn'],
+    '@typescript-eslint/no-unsafe-member-access': ['warn'],
+    '@typescript-eslint/no-unsafe-return': ['warn'],
+    '@typescript-eslint/no-unsafe-call': ['warn'],
+    '@typescript-eslint/no-unused-expressions': ['warn'],
+    'global-require': 0,
+    'react-hooks/exhaustive-deps': 'off',
+    quotes: ['error', 'single'],
+    'object-curly-spacing': ['error', 'always'],
+    'array-bracket-spacing': ['error', 'never'],
+    'react/require-default-props': ['error'],
+    'react/default-props-match-prop-types': ['error'],
+    'react/sort-prop-types': ['error'],
+    'react/no-array-index-key': 'off',
+    'react/function-component-definition': [
+      'error',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
+    'no-tabs': 'off',
+    'no-void': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-extraneous-dependencies': ['error', {devDependencies: true}],
+    'react/display-name': 'off',
+    'prettier/prettier': [
+      'error',
+      {
+        printWidth: 120,
+        endOfLine: 'lf',
+        tabWidth: 2,
+        indentStyle: 'space',
+        useTabs: true,
+        arrowParens: 'avoid',
+        bracketSameLine: false,
+        singleQuote: true,
+        trailingComma: 'all',
+      },
+    ],
+  },
 };

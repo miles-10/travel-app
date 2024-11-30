@@ -1,3 +1,37 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "types": [
+      "jest",
+      "node",
+      "react-native"
+    ],
+    "typeRoots": [
+      "./src/types",
+      "./node_modules/@types"
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/theme/*": [
+        "./src/theme/*"
+      ]
+    }
+  },
+  "include": [
+    "./src/**/*",
+    "./src/@types/**/*",
+    "index.d.ts",
+    ".eslintrc.js",
+    "jest.setup.js",
+    "jest.config.js",
+    "babel.config.js",
+    "index.js",
+    "App.tsx"
+  ],
+  "exclude": [
+    "coverage",
+    "index.d.ts"
+  ]
 }

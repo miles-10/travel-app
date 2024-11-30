@@ -13,8 +13,20 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1DF7F91020410B5A9CF14F2F /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		2D3BFEC4F3734CA89A6A352A /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5B03CDCF47B4E4A80643B51 /* OpenSans-Regular.ttf */; };
+		586E5C623039489DBB131170 /* OpenSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C0A6564D3FA041CC8F36D57F /* OpenSans-MediumItalic.ttf */; };
+		5A9598FA91544181B1CE3B25 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 79BEF646766D42A58089AD31 /* OpenSans-LightItalic.ttf */; };
+		65A194DA3A39410284EA656B /* OpenSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A5D0666E8ED6456EB8389065 /* OpenSans-SemiBold.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-travelApp-travelAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-travelApp-travelAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		943B2E3AEF2045CBBBB53E5B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7BE7C8EDAF0417BB6A25B7F /* OpenSans-BoldItalic.ttf */; };
+		AB82E0FAF6C24BB89A5FC377 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 720236B9939A4AACB401CE25 /* OpenSans-Light.ttf */; };
+		DD9757DE294E49CBBE9DEE04 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90507D6A7EC14CF4BFB536AA /* OpenSans-Bold.ttf */; };
+		E59D30C8F58D435C80ACB608 /* OpenSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DB436857C6544DF81635068 /* OpenSans-Medium.ttf */; };
+		EF3EFC0D6C254BC48DE1E391 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 225840CEF9EC4DB4801556C9 /* OpenSans-ExtraBold.ttf */; };
+		F504848C14A84BA7954657D0 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8DE442E45D124D6D8A076FB9 /* OpenSans-ExtraBoldItalic.ttf */; };
+		F93DEAEFAFFC4449BE5EC9DE /* OpenSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E7F599FD9917448FBBA55DC1 /* OpenSans-SemiBoldItalic.ttf */; };
+		FAA68498597742B19101B124 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C22DB9C3A5541ACB2D043BF /* OpenSans-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +51,24 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = travelApp/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = travelApp/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-travelApp-travelAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-travelApp-travelAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DB436857C6544DF81635068 /* OpenSans-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Medium.ttf"; path = "../src/theme/assets/fonts/OpenSans-Medium.ttf"; sourceTree = "<group>"; };
+		225840CEF9EC4DB4801556C9 /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBold.ttf"; path = "../src/theme/assets/fonts/OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-travelApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelApp.debug.xcconfig"; path = "Target Support Files/Pods-travelApp/Pods-travelApp.debug.xcconfig"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-travelApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelApp.release.xcconfig"; path = "Target Support Files/Pods-travelApp/Pods-travelApp.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-travelApp-travelAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelApp-travelAppTests.debug.xcconfig"; path = "Target Support Files/Pods-travelApp-travelAppTests/Pods-travelApp-travelAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-travelApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-travelApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C22DB9C3A5541ACB2D043BF /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Italic.ttf"; path = "../src/theme/assets/fonts/OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		720236B9939A4AACB401CE25 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Light.ttf"; path = "../src/theme/assets/fonts/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		79BEF646766D42A58089AD31 /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-LightItalic.ttf"; path = "../src/theme/assets/fonts/OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = travelApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-travelApp-travelAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-travelApp-travelAppTests.release.xcconfig"; path = "Target Support Files/Pods-travelApp-travelAppTests/Pods-travelApp-travelAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		8DE442E45D124D6D8A076FB9 /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-ExtraBoldItalic.ttf"; path = "../src/theme/assets/fonts/OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		90507D6A7EC14CF4BFB536AA /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Bold.ttf"; path = "../src/theme/assets/fonts/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		A5D0666E8ED6456EB8389065 /* OpenSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBold.ttf"; path = "../src/theme/assets/fonts/OpenSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		A7BE7C8EDAF0417BB6A25B7F /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-BoldItalic.ttf"; path = "../src/theme/assets/fonts/OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		C0A6564D3FA041CC8F36D57F /* OpenSans-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-MediumItalic.ttf"; path = "../src/theme/assets/fonts/OpenSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D5B03CDCF47B4E4A80643B51 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-Regular.ttf"; path = "../src/theme/assets/fonts/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		E7F599FD9917448FBBA55DC1 /* OpenSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "OpenSans-SemiBoldItalic.ttf"; path = "../src/theme/assets/fonts/OpenSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -99,6 +123,26 @@
 			name = travelApp;
 			sourceTree = "<group>";
 		};
+		26431C48691544128F1AA262 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				90507D6A7EC14CF4BFB536AA /* OpenSans-Bold.ttf */,
+				A7BE7C8EDAF0417BB6A25B7F /* OpenSans-BoldItalic.ttf */,
+				225840CEF9EC4DB4801556C9 /* OpenSans-ExtraBold.ttf */,
+				8DE442E45D124D6D8A076FB9 /* OpenSans-ExtraBoldItalic.ttf */,
+				6C22DB9C3A5541ACB2D043BF /* OpenSans-Italic.ttf */,
+				720236B9939A4AACB401CE25 /* OpenSans-Light.ttf */,
+				79BEF646766D42A58089AD31 /* OpenSans-LightItalic.ttf */,
+				1DB436857C6544DF81635068 /* OpenSans-Medium.ttf */,
+				C0A6564D3FA041CC8F36D57F /* OpenSans-MediumItalic.ttf */,
+				D5B03CDCF47B4E4A80643B51 /* OpenSans-Regular.ttf */,
+				A5D0666E8ED6456EB8389065 /* OpenSans-SemiBold.ttf */,
+				E7F599FD9917448FBBA55DC1 /* OpenSans-SemiBoldItalic.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +169,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				26431C48691544128F1AA262 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -247,6 +292,18 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				1DF7F91020410B5A9CF14F2F /* PrivacyInfo.xcprivacy in Resources */,
+				DD9757DE294E49CBBE9DEE04 /* OpenSans-Bold.ttf in Resources */,
+				943B2E3AEF2045CBBBB53E5B /* OpenSans-BoldItalic.ttf in Resources */,
+				EF3EFC0D6C254BC48DE1E391 /* OpenSans-ExtraBold.ttf in Resources */,
+				F504848C14A84BA7954657D0 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				FAA68498597742B19101B124 /* OpenSans-Italic.ttf in Resources */,
+				AB82E0FAF6C24BB89A5FC377 /* OpenSans-Light.ttf in Resources */,
+				5A9598FA91544181B1CE3B25 /* OpenSans-LightItalic.ttf in Resources */,
+				E59D30C8F58D435C80ACB608 /* OpenSans-Medium.ttf in Resources */,
+				586E5C623039489DBB131170 /* OpenSans-MediumItalic.ttf in Resources */,
+				2D3BFEC4F3734CA89A6A352A /* OpenSans-Regular.ttf in Resources */,
+				65A194DA3A39410284EA656B /* OpenSans-SemiBold.ttf in Resources */,
+				F93DEAEFAFFC4449BE5EC9DE /* OpenSans-SemiBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
